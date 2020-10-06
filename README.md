@@ -25,12 +25,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 launches the test runner in interactive watch mode.<br />
 Unfortunately there's a little bug with jest and create-react-app re. coverage: you'll need to run `yarn test --coverage --watchAll=false` to see 100% code coverage in the terminal.<br/>
 `yarn test --coverage` will still generate a coverage report in the project's root directory: `coverage/lcov-report`
-(*reveal in finder to open coverage index.html files*)
+(_reveal in finder to open coverage index.html files_)
 
-_____________________
+---
 
 `THE TASK (in a nutshell):`  
-`Build a 2-page app that receives data from the weatherbit API. Page 1 shows current weather for one of 5 major locations. Page 2 shows the 16 day forecast for those same cities, and also has the option to filter data according to min and max temperatures.`  
+`Build a 2-page app that receives data from the weatherbit API. Page 1 shows current weather for one of 5 major locations. Page 2 shows the 16 day forecast for those same cities, and also has the option to filter data according to min and max temperatures.`<br/>
+
+<img src="public/weather-app.gif" width=200>
 
 **Requirements:**<br />
 ✔️ Use React and TypeScript<br />
