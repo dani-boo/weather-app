@@ -1,6 +1,6 @@
 <!--- to preview in VSCode, use ⇧⌘V (shift + command + V) --->
 
-A mini weather app created with [Create React App](https://github.com/facebook/create-react-app), [Typescript](https://www.typescriptlang.org/), [React Hooks](https://reactjs.org/docs/hooks-overview.html), and the [Weatherbit rapidAPI](https://rapidapi.com/weatherbit/api/weather/endpoints).
+**A mini weather app created with [Create React App](https://github.com/facebook/create-react-app), [Typescript](https://www.typescriptlang.org/), [React Hooks](https://reactjs.org/docs/hooks-overview.html), and the [Weatherbit rapidAPI](https://rapidapi.com/weatherbit/api/weather/endpoints).**
 
 ![weather](public/weather.jpg)
 
