@@ -12,7 +12,7 @@
 
 ## NB: You need an API key from weatherbit - [subscribe here.](https://rapidapi.com/weatherbit/api/weather/endpoints)
 
-Once you've generated that, you'll need to create a `.env` folder in the root of the project, and add your API key like so:
+Once you've generated that, you'll need to create a `.env` file in the root of the project, and add your API key like so:
 `REACT_APP_WEATHER_API_KEY=${insert-your-shiny-new-key-here}` (double quotation marks preferred, eg: `REACT_APP_WEATHER_API_KEY="notARealKeyItNeedsNumbers"`)
 
 **`yarn start`**
