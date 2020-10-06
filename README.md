@@ -23,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 **`yarn test`**
 
 launches the test runner in interactive watch mode.<br />
-Unfortunately there's a little bug with jest and create-react-app re. coverage: you'll need to run `yarn test --coverage --watchAll=false` to see 100% code coverage in the terminal.<br/>
+Unfortunately jest has idiosyncracies re. coverage if nothing test-wise has changed between commits: you'll need to run `yarn test --coverage --watchAll=false` to see 100% code coverage in the terminal.<br/>
 `yarn test --coverage` will still generate a coverage report in the project's root directory: `coverage/lcov-report`
 (_reveal in finder to open coverage index.html files_)
 
