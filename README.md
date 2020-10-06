@@ -24,4 +24,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 launches the test runner in interactive watch mode.<br />
 Try `yarn test --coverage` to see 100% coverage - this will also generate a coverage report in the project's root directory: `coverage/lcov-report`
-(\*reveal in finder to open coverage index.html files)
+(*reveal in finder to open coverage index.html files*)
