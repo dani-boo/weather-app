@@ -4,7 +4,7 @@ import SixteenDayForecast from './SixteenDayForecast'
 import Weather from '../Weather/Weather'
 import Details from '../Details/Details'
 
-describe('CurrentForecast', () => {
+describe('SixteenDayForecast', () => {
   it('should render Weather and Details components', () => {
     const wrapper = shallow(<SixteenDayForecast/>)
     expect(wrapper.find(Weather)).toHaveLength(1)
