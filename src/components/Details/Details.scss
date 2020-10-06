@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+}
+
+.warning {
+  color: red;
+}
+
+.long-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  @media only screen and (max-width: 414px) {
+    padding-bottom: 64px;
+  }
+}
+
+.day {
+  flex: 1 0 21%;
+  padding: 12px;
+}
+
+.day:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 5em;
+  height: auto;
+}
+
+dd {
+  margin: auto;
+}
+
+.city-name {
+  font-size: 2em;
+}

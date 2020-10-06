@@ -1,9 +1,16 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import React from 'react'
+import { MemoryRouter } from 'react-router';
+import { mount } from 'enzyme'
+import App from './App'
+import CurrentForecast from './components/CurrentForecast/CurrentForecast'
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe('App', () => {
+  it('renders with CurrentForecast component', () => {
+    const wrapper = mount(
+      <MemoryRouter initialEntries={[ '/' ]}>
+        <App/>
+      </MemoryRouter>
+    )
+    expect(wrapper.find(CurrentForecast)).toHaveLength(1)
+  })
+})

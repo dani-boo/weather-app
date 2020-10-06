@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import CurrentForecast from './components/CurrentForecast/CurrentForecast'
+import SixteenDayForecast from './components/SixteenDayForecast/SixteenDayForecast'
 
-function App() {
+import './App.scss'
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className='wrapper'>
+        <header className='header'>
+          <h2 className='weather-title'>How's the Weather?</h2>
+        </header>
+        <main>
+          <div className='router-links-div'>
+            <Link className='router-link' to='/'>
+              Current Weather
+            </Link>
+            <Link className='router-link' to='/16dayforecast'>
+              16 Day Forecast
+            </Link>
+          </div>
+          <Route path='/' exact component={CurrentForecast} />
+          <Route path='/16dayforecast' component={SixteenDayForecast} />
+        </main>
+        <footer>
+          <span>
+            A tech test using the{' '}
+            <a
+              href='https://rapidapi.com/weatherbit/api/weather/Details'
+              className='link'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              weatherbit API
+            </a>
+          </span>
+        </footer>
+      </div>
+    </Router>
+  )
 }
-
-export default App;
