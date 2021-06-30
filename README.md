@@ -48,3 +48,5 @@ This was a deep dive into React functional components, hooks, and TypeScript. Ch
 ⭐ Capture performance metrics and improve<br />
 ⭐ Make provision for all "unhappy" paths<br />
 ⭐ Design and implement proper UI<br />
+
+<!-- Test run -->
