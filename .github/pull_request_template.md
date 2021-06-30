@@ -17,7 +17,7 @@ ${ProjectKey}-${ticketNumber}, eg. "UI-99: Add PR Template" -->
 
 - [ ] Checks pass: `npm run lint` && `npm run test`
 - [ ] Code standards are met <!-- link to short style guide, which shows best practice theme usage etc. -->
-- [ ] Test coverage is above 89% <!-- min test coverage →
+- [ ] Test coverage is above 95% <!-- min test coverage -->
 - [ ] Breaking changes are documented
 
 ### :camera: Screenshots / Recordings:
